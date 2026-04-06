@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Matrícula - IFSP</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>IFSP - Matrícula Online</h1>
+    <nav>
+        <a href="index.html">Cursos</a>
+        <a href="matricula.html">Matrícula</a>
+    </nav>
+</header>
+
+<main>
+    <h2>Formulário de Matrícula</h2>
+    
+
+    <form>
+        <label>Nome:</label>
+        <input type="text" name="nome" required>
+
+        <label>Email:</label>
+        <input type="email" name="email" required>
+
+        <label>Telefone:</label>
+        <input type="tel" name="telefone" required>
+
+        <label>Escolha o Curso:</label>
+        <select name="curso" required>
+            <option value="">Selecione</option>
+            <option>ENGENHARIA DE PRODUÇÃO</option>
+            <option>ENGENHARIA QUÍMICA</option>
+            <option>AGRONOMIA</option>
+        </select>
+
+        <button type="submit">Efetuar Matrícula</button>
+    </form>
+</main>
+</body>
+</html>

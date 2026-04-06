@@ -1,0 +1,72 @@
+body {
+ 
+    font-family: 'Segoe UI', Arial, sans-serif;
+
+    margin: 0;
+    background-color: #93c591;
+    color: #333;
+
+}
+
+header {
+    background-color: #1e721e;
+    color: white;
+    padding: 25px;
+    text-align: center;
+    background-image: url(logo-if.png);
+    background-repeat: no-repeat;
+    background-position: 50px center;
+    background-size: 150px;
+}
+
+
+main {
+    padding: 40px 20px;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.curso {
+    background-color: white;
+    padding: 70px;
+    margin-bottom: 20px;
+    border-radius: 12px;
+    box-shadow: 0 6px 15px rgba(0,0,0,0.08);
+    transition: all 0.3s ease;
+    border-left: 6px solid #008000;
+}
+
+form {
+    background-color: white;
+    padding: 50px;
+    border-radius: 52px;
+    max-width: 450px;
+    margin: auto;
+    box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+}
+
+label {
+    display: block;
+    margin-top: 15px;
+    font-weight: 600;
+}
+
+
+
+button {
+    margin-top: 40px;
+    padding: 20px;
+    width: 100%;
+    background: linear-gradient(90deg, #006400, #00a000);
+    color: white;
+    border: none;
+    border-radius: 80px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    transition: all 0.3s;
+}
+
+h2{
+    text-align: center;
+}
